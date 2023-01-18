@@ -69,3 +69,4 @@ Create an extension with a custom exporter or use the attribute filtering functi
 
 Create an extension that disables existing instrumentation and replace it with new one that injects `Advice` into the same (or a better) method as the original instrumentation. You can write your `Advice` for this and use the existing `Tracer` directly or extend it. As you have your own `Advice`, you can control which `Tracer` you use.
 # gradle-maven-ext-2023
+# gradle-maven-ext-2023
