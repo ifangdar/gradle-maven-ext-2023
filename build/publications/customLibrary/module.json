@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry.example",
+    "module": "opentelemetry-java-instrumentation-extension-demo",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.22.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-bom",
+          "version": {
+            "requires": "1.23.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-bom-alpha",
+          "version": {
+            "requires": "1.23.0-alpha-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-java-instrumentation-extension-demo-1.0.jar",
+          "url": "opentelemetry-java-instrumentation-extension-demo-1.0.jar",
+          "size": 15804,
+          "sha512": "6d52673c30ebf60ccf59f1225bb98619aef047cbea3823c3f5bc0cc6868b2186dcea3c6dc885201e46252e996a4dce553a64fd0253a1b556331ef507c4a8249a",
+          "sha256": "2819070df7da01f0d6c93eb8b776e463e007f4b460670cd4429e8b396da5d44c",
+          "sha1": "c71b309aaa312a9e09aeb79aaed8f04f114e7026",
+          "md5": "97652f93f8abfe38f75fe23560c5c3b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.22.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-bom",
+          "version": {
+            "requires": "1.23.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-bom-alpha",
+          "version": {
+            "requires": "1.23.0-alpha-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-java-instrumentation-extension-demo-1.0.jar",
+          "url": "opentelemetry-java-instrumentation-extension-demo-1.0.jar",
+          "size": 15804,
+          "sha512": "6d52673c30ebf60ccf59f1225bb98619aef047cbea3823c3f5bc0cc6868b2186dcea3c6dc885201e46252e996a4dce553a64fd0253a1b556331ef507c4a8249a",
+          "sha256": "2819070df7da01f0d6c93eb8b776e463e007f4b460670cd4429e8b396da5d44c",
+          "sha1": "c71b309aaa312a9e09aeb79aaed8f04f114e7026",
+          "md5": "97652f93f8abfe38f75fe23560c5c3b4"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-java-instrumentation-extension-demo-1.0-all.jar",
+          "url": "opentelemetry-java-instrumentation-extension-demo-1.0-all.jar",
+          "size": 602881,
+          "sha512": "53227c80f9e0d52c5f7f86f7f6a1b3f6829b61e970804baa414f7167db406039d9b4a8f6d8b493de3da7325861ccfc4c27efd37743cd4aeabb406ce591017184",
+          "sha256": "26d8f14b681636c0a620b41a53c3ccec5aeccb613d98b82334792cf9e63886d7",
+          "sha1": "0197ae53744361ed232c3d0ac2999a0c5c9c5442",
+          "md5": "6b91eced19aa17e32d42be9afbcff0c3"
+        }
+      ]
+    }
+  ]
+}
